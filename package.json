@@ -1,10 +1,26 @@
 {
+  "name": "multipaint_cli",
+  "version": "0.0.1",
+  "description": "paint app for the CLI that allows multiple users connecting via websockets",
+  "homepage": "https://github.com/noshpineapple28/multipaint_cli#readme",
+  "bugs": {
+    "url": "https://github.com/noshpineapple28/multipaint_cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noshpineapple28/multipaint_cli.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "neo-blessed": "^0.2.0",
     "socketio": "^1.0.0",
+    "terminal-kit": "^3.1.2",
     "typescript": "^5.8.3"
-  },
-  "devDependencies": {
-    "@types/node": "^24.1.0"
   }
 }
