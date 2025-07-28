@@ -16,7 +16,7 @@ const menu: Widgets.ListElement = list({
 });
 
 // Create a box
-let box1: Widgets.BoxElement = box({
+const box1: Widgets.BoxElement = box({
   parent: menu,
   left: '0%',
   width: '30%',
