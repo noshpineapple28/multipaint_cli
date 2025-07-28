@@ -16,7 +16,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npx ts-node ./index.ts",
-    "format": "npx prettier . --write",
+    "format": "npx prettier ./src/* --write && npx prettier ./README.md --write",
     "lint": "npx eslint .",
     "prepare": "husky"
   },

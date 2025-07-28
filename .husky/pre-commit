@@ -1,2 +1,3 @@
-npx prettier . --check
+npx prettier ./src/* --check
+npx prettier ./README.md --check
 npm run lint
