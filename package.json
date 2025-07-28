@@ -15,9 +15,9 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "npx ts-node ./index.ts",
+    "start": "npx ts-node ./src/index.ts",
     "format": "npx prettier ./src/* --write && npx prettier ./README.md --write",
-    "lint": "npx eslint .",
+    "lint": "npx eslint ./src/*",
     "prepare": "husky"
   },
   "dependencies": {
